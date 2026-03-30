@@ -89,10 +89,3 @@ lib/data/menu_data.dart
 Available in the Releases section.
 
 ---
-
-## 📌 Future Improvements
-
-* Database integration (SQLite/Firebase)
-* Search by item name
-* Bill history tracking
-* UI enhancements
