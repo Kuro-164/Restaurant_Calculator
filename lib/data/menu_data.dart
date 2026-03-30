@@ -1,0 +1,91 @@
+import '../models/menu_item.dart';
+
+List<MenuItem> getMenuItems() {
+  return [
+    // 🥣 IDLI & VADA
+    MenuItem(name: 'Thatte Idli', price: 120, category: 'Idli & Vada', keywords: ['idli', 'vada', 'steamed']),
+    MenuItem(name: 'Idli (2 Pieces)', price: 40, category: 'Idli & Vada', keywords: ['idli', 'breakfast', 'south indian']),
+    MenuItem(name: 'Mendu Vada (2 Pieces)', price: 70, category: 'Idli & Vada', keywords: ['vada', 'lentil', 'fried']),
+    MenuItem(name: 'Idli Vada (2 Pieces)', price: 70, category: 'Idli & Vada', keywords: ['idli', 'vada', 'combo']),
+    MenuItem(name: 'Dal Vada (2 Pieces)', price: 60, category: 'Idli & Vada', keywords: ['dal vada', 'morning', 'snack']),
+    MenuItem(name: 'Vada Fry', price: 100, category: 'Idli & Vada', keywords: ['vada', 'fried', 'snack']),
+    MenuItem(name: 'Cheese Vada Fry', price: 140, category: 'Idli & Vada', keywords: ['cheese', 'vada', 'fried']),
+    MenuItem(name: 'Schezwan Fry Idli', price: 110, category: 'Idli & Vada', keywords: ['idli', 'schezwan', 'fry']),
+    MenuItem(name: 'Cheese Schezwan Fry Idli', price: 160, category: 'Idli & Vada', keywords: ['cheese', 'idli', 'schezwan']),
+    MenuItem(name: 'Chinese Idli Fry', price: 120, category: 'Idli & Vada', keywords: ['idli', 'chinese', 'fry']),
+    MenuItem(name: 'Cheese Chinese Idli', price: 160, category: 'Idli & Vada', keywords: ['cheese', 'idli', 'chinese']),
+    MenuItem(name: 'Jain Fry Idli', price: 100, category: 'Idli & Vada', keywords: ['jain', 'idli', 'fry']),
+    MenuItem(name: 'Cheese Jain Fry Idli', price: 140, category: 'Idli & Vada', keywords: ['cheese', 'jain', 'idli']),
+
+    // 🧀 UTTAPAM
+    MenuItem(name: 'Sada Uttappa', price: 100, category: 'Uttapam', keywords: ['uttappa', 'sada', 'plain']),
+    MenuItem(name: 'Cheese Sada Uttappa', price: 140, category: 'Uttapam', keywords: ['cheese', 'uttappa', 'sada']),
+    MenuItem(name: 'Masala Uttappa', price: 120, category: 'Uttapam', keywords: ['masala', 'uttappa', 'onion']),
+    MenuItem(name: 'Cheese Masala Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'masala', 'uttappa']),
+    MenuItem(name: 'Onion Uttappa', price: 120, category: 'Uttapam', keywords: ['onion', 'uttappa']),
+    MenuItem(name: 'Cheese Onion Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'onion', 'uttappa']),
+    MenuItem(name: 'Tomato Uttappa', price: 120, category: 'Uttapam', keywords: ['tomato', 'uttappa']),
+    MenuItem(name: 'Cheese Tomato Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'tomato', 'uttappa']),
+    MenuItem(name: 'Tomato Onion Uttappa', price: 120, category: 'Uttapam', keywords: ['tomato', 'onion', 'uttappa']),
+    MenuItem(name: 'Cheese Tomato Onion Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'tomato', 'onion', 'uttappa']),
+    MenuItem(name: 'Jain Uttappa', price: 120, category: 'Uttapam', keywords: ['jain', 'uttappa']),
+    MenuItem(name: 'Cheese Jain Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'jain', 'uttappa']),
+    MenuItem(name: 'Mysore Uttappa', price: 120, category: 'Uttapam', keywords: ['mysore', 'uttappa']),
+    MenuItem(name: 'Cheese Mysore Uttappa', price: 160, category: 'Uttapam', keywords: ['cheese', 'mysore', 'uttappa']),
+
+    // 🍚 RICE
+    MenuItem(name: 'Curd Rice', price: 90, category: 'Rice', keywords: ['rice', 'curd', 'yogurt', 'south indian']),
+    MenuItem(name: 'Tomato Rice', price: 80, category: 'Rice', keywords: ['rice', 'tomato']),
+    MenuItem(name: 'Sambar Rice', price: 80, category: 'Rice', keywords: ['rice', 'sambar', 'spicy']),
+    MenuItem(name: 'Lemon Rice', price: 80, category: 'Rice', keywords: ['rice', 'lemon']),
+    MenuItem(name: 'Pineapple Sheera', price: 60, category: 'Dessert', keywords: ['sweet', 'sheera', 'pineapple']),
+    MenuItem(name: 'Upma', price: 40, category: 'Breakfast', keywords: ['upma', 'suji', 'semolina']),
+    MenuItem(name: 'Filter Coffee', price: 10, category: 'Beverage', keywords: ['coffee', 'filter', 'south indian']),
+    MenuItem(name: 'Tea', price: 10, category: 'Beverage', keywords: ['tea', 'chai', 'hot drink']),
+
+    // 🥞 DOSA
+    MenuItem(name: 'Sada Dosa', price: 80, category: 'Dosa', keywords: ['dosa', 'plain', 'sada']),
+    MenuItem(name: 'Cheese Sada Dosa', price: 120, category: 'Dosa', keywords: ['cheese', 'dosa', 'plain']),
+    MenuItem(name: 'Set Dosa', price: 80, category: 'Dosa', keywords: ['set dosa', 'morning', 'soft']),
+    MenuItem(name: 'Masala Dosa', price: 100, category: 'Dosa', keywords: ['masala', 'potato', 'dosa']),
+    MenuItem(name: 'Cheese Masala Dosa', price: 140, category: 'Dosa', keywords: ['cheese', 'masala', 'dosa']),
+    MenuItem(name: 'Onion Sada Dosa', price: 90, category: 'Dosa', keywords: ['onion', 'dosa', 'sada']),
+    MenuItem(name: 'Cheese Onion Sada Dosa', price: 130, category: 'Dosa', keywords: ['cheese', 'onion', 'dosa']),
+    MenuItem(name: 'Chutney Sada Dosa', price: 90, category: 'Dosa', keywords: ['chutney', 'dosa', 'sada']),
+    MenuItem(name: 'Cheese Chutney Sada Dosa', price: 130, category: 'Dosa', keywords: ['cheese', 'chutney', 'dosa']),
+    MenuItem(name: 'Mysore Sada Dosa', price: 100, category: 'Dosa', keywords: ['mysore', 'dosa', 'sada']),
+    MenuItem(name: 'Cheese Mysore Sada Dosa', price: 140, category: 'Dosa', keywords: ['cheese', 'mysore', 'dosa']),
+    MenuItem(name: 'Mysore Masala Dosa', price: 120, category: 'Dosa', keywords: ['mysore', 'masala', 'dosa']),
+    MenuItem(name: 'Cheese Mysore Masala Dosa', price: 160, category: 'Dosa', keywords: ['cheese', 'mysore', 'masala', 'dosa']),
+    MenuItem(name: 'Jain Mysore Dosa', price: 120, category: 'Dosa', keywords: ['jain', 'mysore', 'dosa']),
+    MenuItem(name: 'Cheese Jain Mysore Dosa', price: 160, category: 'Dosa', keywords: ['cheese', 'jain', 'mysore', 'dosa']),
+    MenuItem(name: 'Noodles Dosa', price: 120, category: 'Dosa', keywords: ['noodles', 'dosa', 'chinese']),
+    MenuItem(name: 'Cheese Noodle Dosa', price: 160, category: 'Dosa', keywords: ['cheese', 'noodles', 'dosa']),
+    MenuItem(name: 'Jain Noodle Dosa', price: 120, category: 'Dosa', keywords: ['jain', 'noodles', 'dosa']),
+    MenuItem(name: 'Cheese Jain Noodle Dosa', price: 160, category: 'Dosa', keywords: ['cheese', 'jain', 'noodles', 'dosa']),
+    MenuItem(name: 'Schezwan Masala Dosa', price: 130, category: 'Dosa', keywords: ['schezwan', 'masala', 'dosa']),
+    MenuItem(name: 'Cheese Schezwan Masala Dosa', price: 170, category: 'Dosa', keywords: ['cheese', 'schezwan', 'masala', 'dosa']),
+    MenuItem(name: 'Open Cheese Sada Dosa', price: 140, category: 'Dosa', keywords: ['open', 'cheese', 'dosa']),
+    MenuItem(name: 'Schezwan Dosa', price: 90, category: 'Dosa', keywords: ['schezwan', 'dosa', 'spicy']),
+    MenuItem(name: 'Cheese Schezwan Dosa', price: 130, category: 'Dosa', keywords: ['cheese', 'schezwan', 'dosa']),
+
+    // 🌟 SARAVANA SPECIAL
+    MenuItem(name: 'Ghee Podi Sada', price: 120, category: 'Saravana Special', keywords: ['ghee', 'podi', 'dosa']),
+    MenuItem(name: 'Ghee Podi Masala', price: 150, category: 'Saravana Special', keywords: ['ghee', 'podi', 'masala dosa']),
+    MenuItem(name: 'Pizza Dosa', price: 220, category: 'Saravana Special', keywords: ['pizza', 'dosa', 'cheese']),
+    MenuItem(name: 'Jini Dosa', price: 220, category: 'Saravana Special', keywords: ['jini', 'dosa', 'special']),
+    MenuItem(name: 'Cheese Chilly Dosa', price: 220, category: 'Saravana Special', keywords: ['cheese', 'chilly', 'dosa']),
+    MenuItem(name: 'Paneer Chilly', price: 220, category: 'Saravana Special', keywords: ['paneer', 'chilly', 'starter']),
+    MenuItem(name: 'Paneer Tikka Dosa', price: 220, category: 'Saravana Special', keywords: ['paneer', 'tikka', 'dosa']),
+    MenuItem(name: 'Ghee Podi Idli', price: 120, category: 'Saravana Special', keywords: ['ghee', 'podi', 'idli']),
+    MenuItem(name: 'Idli Fry', price: 100, category: 'Saravana Special', keywords: ['idli', 'fry', 'special']),
+    MenuItem(name: 'Appam', price: 70, category: 'Saravana Special', keywords: ['appam', 'rice pancake']),
+    MenuItem(name: 'Paniyaram (6 Pcs)', price: 120, category: 'Saravana Special', keywords: ['paniyaram', 'south indian', '6 pieces']),
+
+    // addons
+    MenuItem(name: 'Water Bottle (Small)', price: 10, category: 'Addons', keywords: ['water', 'addon']),
+    MenuItem(name: 'Water Bottle (Big)', price: 20, category: 'Addons', keywords: ['water', 'addon', 'big']),
+    MenuItem(name: 'Sprite (Small)', price: 20, category: 'Addons', keywords: ['Sprite', 'addon']),
+    MenuItem(name: 'Thumps up (Small)', price: 20, category: 'Addons', keywords: ['Thumps up', 'addon']),
+  ];
+}
