@@ -1,16 +1,98 @@
-# saravana_calci
+# 🍽️ Restaurant Calculator App
 
-A new Flutter project.
+A Flutter-based restaurant billing system with a **calculator-style interface** that allows quick item selection and bill generation.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* Calculator-based price input
+* Add items to cart easily
+* Quantity management
+* Fast and simple billing
+* Clean and minimal UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Tech Stack
+
+* Flutter
+* Dart
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+ ├── data/
+ │    ├── menu_data.dart        # Main menu data (EDIT THIS)
+ │    └── load_menu_data.dart   # Data loading logic
+ │
+ ├── models/
+ │    ├── cart_item.dart
+ │    ├── menu_item.dart
+ │
+ ├── screens/
+ │    ├── billing_screen.dart
+ │    ├── calculator_screen.dart
+ │
+ └── main.dart
+```
+
+---
+
+## ⚠️ Important Note (MUST READ)
+
+> Before running the app, you need to edit the menu data file.
+
+👉 File to edit:
+
+```
+lib/data/menu_data.dart
+```
+
+### Why?
+
+* This file currently contains **sample restaurant data**
+* The app uses this data to display menu items
+
+### What you should do:
+
+* Replace item names with your restaurant items
+* Update prices accordingly
+* Customize menu as per your use case
+
+⚠️ If not edited, the app will show default/sample data.
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Run:
+
+   ```
+   flutter pub get
+   ```
+3. Edit `menu_data.dart` with your menu
+4. Run:
+
+   ```
+   flutter run
+   ```
+
+---
+
+## 📥 Download APK
+
+Available in the Releases section.
+
+---
+
+## 📌 Future Improvements
+
+* Database integration (SQLite/Firebase)
+* Search by item name
+* Bill history tracking
+* UI enhancements
